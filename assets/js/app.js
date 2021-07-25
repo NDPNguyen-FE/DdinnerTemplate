@@ -1,4 +1,3 @@
-<script>
 var swiper = new Swiper(".mySwiper", {
     pagination: {
         el: ".swiper-pagination"
@@ -21,5 +20,6 @@ var testimonialContent = new Swiper(".testimonial-comment", {
     }
 });
 
+        
 
-</script>
+  
