@@ -69,15 +69,12 @@ a,a:hover{
     background-position: center;
     background-size: cover;
     position: relative;
+    height: 350px;
 }
-.overlay {
+.deli .delicious{
     background: rgba(8, 8, 8, 0.5);
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
+    height:100% ;
     width: 100%;
-    z-index: -1;
 }
 .deli__title{
     font-size: 45px;
@@ -86,13 +83,23 @@ a,a:hover{
     color: #fff
 }
 .deli__buttons .btn-white{
-    border:2px solid #fff;
+    border:1px solid #fff;
     color: #fff;
     transition: 0.5s;
+}
+.deli__buttons .btn-white:hover{
+    color: #ff6600;
+    background-color: #fff;
 }
 .deli__buttons .btn-orange{
     background-color: #ff6600;
     color: #fff;
+    border: 1px solid #ff6600;
+    transition: 0.5s;
+}
+.deli__buttons .btn-orange:hover{
+    background-color: #ff6600c2;
+    border: 1px solid #ff6600c2;
 }
 .stats__content{
     position: relative;
