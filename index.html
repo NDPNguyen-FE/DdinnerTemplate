@@ -77,23 +77,268 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <!-- video css  -->
     <link rel="stylesheet" href="assets/css/video.css" />
-    <!-- MAIN CSS  -->
-    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
   <body>
-    <!-- Header -->
-    <header></header>
     <!-- Main -->
     <main>
       <!-- Banner -->
-      <section class="banner"></section>
+      <section class="banner">
+        <div class="header">
+          <div class="container">
+            <nav class="navbar navbar-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">Diner</a>
+                <div class="d-flex align-items-center">
+                  <form class="d-md-flex d-none form">
+                    <input
+                      class="form-control me-2"
+                      type="search"
+                      placeholder="Search"
+                      aria-label="Search"
+                    />
+                    <button class="btn btn-form" type="submit">
+                      <i class="fas fa-search icon-search"></i>
+                    </button>
+                  </form>
+                  <i class="far fa-moon" id="night"></i>
+                  <button class="navbar-toggler ml-3" type="button" id="toggle">
+                    <i class="fas fa-bars"></i>
+                  </button>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <!-- banner content -->
+        <div class="banner__content">
+          <div class="container banner__container d-flex align-items-center">
+            <div class="row">
+              <div class="col-12 col-md-8">
+                <h2 class="banner__title">
+                  The Only Thing We Love More Than Food Is You!
+                </h2>
+                <p class="banner__sub w-75">
+                  Lorem ipsum dolor sit amet consectetur ipsum elit. Qui
+                  eligendi vitae sit.Ea ipsum sed consequuntur illum facere.
+                </p>
+                <div class="button">
+                  <a href="#" class="btn-link"
+                    >Read More <i class="fas fa-chevron-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- menu -->
+      <section class="menu d-flex justify-content-center" id="menu">
+        <div class="menu__container">
+          <ul class="menu__nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </section>
       <!-- About Us -->
-      <section class="about"></section>
+      <section class="about">
+        <div class="container about__container">
+          <div class="row">
+            <div class="col-12 col-md-6 about--left">
+              <p class="about__head">About Us</p>
+              <h3 class="about__title">
+                We found our creative space that is open for you.
+              </h3>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <p class="about__sub">
+                Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit
+                amet elit. Non quae, fugiat nihil ad. Lorem ipsum dolor sit
+                amet. Lorem ipsum init dolor sit, amet elit. Dolor ipsum non
+                velit, culpa!Lorem ipsum init dolor sit.<br />
+                Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit
+                amet elit. Non quae, fugiat nihil ad. Lorem ipsum dolor sit
+                amet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       <!--  Best  -->
-      <section class="best"></section>
+      <section class="best">
+        <div class="best__container">
+          <div class="row">
+            <div class="col-12 col-md-6 best__image"></div>
+
+            <div class="col-12 col-md-6 px-lg-4 py-lg-3 py-4 best__content">
+              <div class="best__infor p-md-5 p-3">
+                <h6 class="best__infor--head">More than 3000 Restaurants</h6>
+                <h3 class="best__infor--title">
+                  Book a table easly at the best price
+                </h3>
+                <p class="best__infor--des my-3">
+                  Vestibulum ante ipsum primis in faucibus orci luctus turpis
+                  sodales quis. Integer sit amet mattis quam.Vivamus a ligula
+                  quam tesque et libero ut justo ultrices in.
+                </p>
+                <div class="best__subcribe mt-5">
+                  <div class="row">
+                    <div class="col-md-6 col-6">
+                      <div class="subcribe__icon mb-4">
+                        <i class="fas fa-thumbs-up fa-2x"></i>
+                      </div>
+                      <a href="#" class="subscribe--link">Best Deals</a>
+                      <p class="mt-2">
+                        Lorem ipsum viverra feugiat. Pellen tesque libero justo.
+                      </p>
+                    </div>
+
+                    <div class="col-md-6 col-6">
+                      <div class="subcribe__icon mb-4">
+                        <i class="fas fa-thumbs-up fa-2x"></i>
+                      </div>
+                      <a href="#" class="subscribe--link">Best Deals</a>
+                      <p class="mt-2">
+                        Lorem ipsum viverra feugiat. Pellen tesque libero justo.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- New -->
-      <section class="new"></section>
+      <section class="new py-5">
+        <div class="container new__container">
+          <div class="new__header text-center">
+            <h6 class="new--sub">What's New</h6>
+            <h3 class="new--title mb-lg-5">Popular Categories</h3>
+          </div>
+
+          <div class="new__category row">
+            <div
+              class="
+                col-lg-4 col-6
+                content-left-sec
+                gal-slide-grid
+                mt-lg-0 mt-4
+              "
+            >
+              <div class="new__slide-img">
+                <a href="#"
+                  ><img src="assets/image/g1.jpg" class="img img-fluid" alt=""
+                /></a>
+              </div>
+              <div class="new__slide-info p-md-5 p-4">
+                <a href="#">
+                  <h4 class="mt-4 mb-0">Vegetarian</h4>
+                </a>
+                <h6 class="mt-sm-2 mt-1"><span>$350</span></h6>
+              </div>
+            </div>
+            <!-- item 2 -->
+            <div
+              class="
+                col-lg-4 col-6
+                content-left-sec
+                gal-slide-grid
+                mt-lg-0 mt-4
+              "
+            >
+              <div class="new__slide-img">
+                <a href="#"
+                  ><img src="assets/image/g2.jpg" class="img img-fluid" alt=""
+                /></a>
+              </div>
+              <div class="new__slide-info p-md-5 p-4">
+                <a href="#">
+                  <h4 class="mt-4 mb-0">Vegetarian</h4>
+                </a>
+                <h6 class="mt-sm-2 mt-1"><span>$350</span></h6>
+              </div>
+            </div>
+            <!-- item 3 -->
+            <div
+              class="
+                col-lg-4 col-6
+                content-left-sec
+                gal-slide-grid
+                mt-lg-0 mt-4
+              "
+            >
+              <div class="new__slide-img">
+                <a href="#"
+                  ><img src="assets/image/g3.jpg" class="img img-fluid" alt=""
+                /></a>
+              </div>
+              <div class="new__slide-info p-md-5 p-4">
+                <a href="#">
+                  <h4 class="mt-4 mb-0">Vegetarian</h4>
+                </a>
+                <h6 class="mt-sm-2 mt-1"><span>$350</span></h6>
+              </div>
+            </div>
+            <!-- item 4 -->
+            <div class="col-lg-4 col-6 content-left-sec gal-slide-grid mt-4">
+              <div class="new__slide-img">
+                <a href="#"
+                  ><img src="assets/image/g4.jpg" class="img img-fluid" alt=""
+                /></a>
+              </div>
+              <div class="new__slide-info p-md-5 p-4">
+                <a href="#">
+                  <h4 class="mt-4 mb-0">Vegetarian</h4>
+                </a>
+                <h6 class="mt-sm-2 mt-1"><span>$350</span></h6>
+              </div>
+            </div>
+            <!-- item 5 -->
+            <div class="col-lg-4 col-6 content-left-sec gal-slide-grid mt-4">
+              <div class="new__slide-img">
+                <a href="#"
+                  ><img src="assets/image/g5.jpg" class="img img-fluid" alt=""
+                /></a>
+              </div>
+              <div class="new__slide-info p-md-5 p-4">
+                <a href="#">
+                  <h4 class="mt-4 mb-0">Vegetarian</h4>
+                </a>
+                <h6 class="mt-sm-2 mt-1"><span>$350</span></h6>
+              </div>
+            </div>
+            <!-- item 6 -->
+            <div class="col-lg-4 col-6 content-left-sec gal-slide-grid mt-4">
+              <div class="new__slide-img">
+                <a href="#"
+                  ><img src="assets/image/g6.jpg" class="img img-fluid" alt=""
+                /></a>
+              </div>
+              <div class="new__slide-info p-md-5 p-4">
+                <a href="#">
+                  <h4 class="mt-4 mb-0">Vegetarian</h4>
+                </a>
+                <h6 class="mt-sm-2 mt-1"><span>$350</span></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- 6services-->
       <section class="allServices">
@@ -205,7 +450,7 @@
         </div>
       </section>
       <!-- Deliciousness -->
-      <div class="deli">
+      <div class="deli py-5">
         <!-- <div class="overlay"></div> -->
         <div class="container-fluid delicious">
           <div class="deli__content py-5">
