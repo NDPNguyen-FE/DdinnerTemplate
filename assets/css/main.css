@@ -913,7 +913,7 @@ section {
   position: fixed;
   right: 50px;
   bottom: 50px;
-  opacity: 1;
+  opacity: 0;
   /* visibility: hidden; */
 }
 
