@@ -733,9 +733,12 @@ section {
   height: 8px;
   display: inline-block;
   border-radius: 50%;
-  /* background: rgb(175, 76, 10); */
+  background: #e9ecef;
   margin-right: 5px;
   opacity: 0.9;
+}
+.swiper-pagination-bullet-active{
+  background: var(--primary-color);
 }
 
 .testimonial-text h3.text-sub,
@@ -857,7 +860,8 @@ section {
 }
 
 .col-end form button.button-end:hover {
-  background: rgba(17, 17, 16, 0.664);
+  background: #ff6600d3;
+ 
 }
 
 .footer-border {
